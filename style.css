@@ -47,6 +47,141 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /** Your CSS Below **/
+body{
+  font-family: var(--fs-base);
+  font-size: var(--font-paragraph);
+  background-color: var(--clr-stone100);
+  color: var(--clr-stone900);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem;
+  min-height: 100vh;
+}
+
+main h1{
+margin-top: 30px;
+margin-bottom: 15px;
+}
+
+h1, h2{
+  font-family: var(--fs-accent);
+}
+
+hr{
+  color: var(--clr-stone150);
+  border: 1px solid;
+}
+
+.container{
+  background-color: white;
+  max-width: var(--width-desktop);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: black;
+}
+
+h1{
+  font-size: var(--font-header);
+}
+
+h2{
+  font-size: var(--font-sub-header);
+  color: var(--clr-brown800);
+}
+
+.preparation{
+  background-color: var(--clr-rose50);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  line-height: 1.8;
+}
+
+.preparation h3{
+  color: var(--clr-rose800);
+}
+
+.preparation li::marker{
+  color: var(--clr-rose800);
+}
+
+.preparation li{
+  padding-left: 23px;
+}
+
+.ingredients{
+  margin-top: 25px;
+  line-height: 1.8;
+}
+
+.ingredients li::marker{
+  color: var(--clr-brown800);
+}
+
+.ingredients li{
+  padding-left: 23px;
+}
+
+.ingredients h2{
+  margin-bottom: 10px;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.instructions{
+  line-height: 1.8;
+}
+
+.instructions h2{
+  margin-bottom: 10px;
+}
+
+.instructions li::marker{
+  color: var(--clr-brown800);
+  font-weight: bold;
+}
+
+.instructions li{
+  padding-left: 23px;
+}
+
+.nutrition{
+  line-height: 1.8;
+}
+
+.nutrition h2{
+  margin-bottom: 10px;
+}
+
+.nutrition th, td{
+  text-align: center;
+}
+
+.nutrition th{
+  padding-left: 300px;
+  color: var(--clr-brown800);
+  text-align: left;
+}
+
+.nutrition td{
+  text-align: left;
+  padding-left: 30px;
+}
+
+.nutrition hr{
+  border: none;
+  border-top: 1px solid;
+  color: var(--clr-stone150);
+  margin: 8px 0;
+}
+
+.nutrition table{
+  margin-top: 20px;
+}
 
 /** Attribution CSS **/
 .attribution { font-size: 11px; text-align: center; }
